@@ -400,9 +400,9 @@ export default function AdminStatsPage() {
                     cx="50%"
                     cy="50%"
                     labelLine={false}
-                    label={({ name, percent }) =>
-                      `${name}: ${((percent || 0) * 100).toFixed(0)}%`
-                    }
+                label={({ name, percent }: any) =>
+  `${name}: ${((percent || 0) * 100).toFixed(0)}%`
+}
                     outerRadius={90}
                     fill="#E86B2F"
                     dataKey="value"
@@ -438,9 +438,9 @@ export default function AdminStatsPage() {
                     cx="50%"
                     cy="50%"
                     labelLine={false}
-                    label={({ name, percent }) =>
-                      `${name}: ${((percent || 0) * 100).toFixed(0)}%`
-                    }
+                    label={({ name, percent }: any) =>
+  `${name}: ${((percent || 0) * 100).toFixed(0)}%`
+}
                     outerRadius={90}
                     fill="#B485F6"
                     dataKey="value"
