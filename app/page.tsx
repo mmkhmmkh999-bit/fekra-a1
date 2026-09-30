@@ -134,11 +134,11 @@ export default function HomePage() {
               </Link>
             ) : (
               <Link
-                href="/customer-login"
-                className="hidden sm:flex items-center gap-1.5 bg-[#FFF9F1] hover:bg-[#F7C7E8] text-[#4A2418] font-black px-4 py-2.5 rounded-full transition-all text-sm border-2 border-[#D9A98F]"
-              >
-                👤 <span className="hidden md:inline">دخول</span>
-              </Link>
+  href="/customer-login"
+  className="hidden sm:flex items-center gap-1.5 bg-[#FFF9F1] hover:bg-[#F7C7E8] text-[#4A2418] font-black px-4 py-2.5 rounded-full transition-all text-sm border-2 border-[#D9A98F]"
+>
+  👤 <span className="hidden md:inline">دخول</span>
+</Link>
             )}
 
             {/* زر ابدأ الآن */}
